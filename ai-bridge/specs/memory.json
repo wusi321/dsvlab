@@ -1,0 +1,520 @@
+{
+ "title": "memory-lab",
+ "count": 36,
+ "components": [
+  {
+   "ref": "sw0",
+   "type": "Switch",
+   "x": 833,
+   "y": 700,
+   "id": "CP0"
+  },
+  {
+   "ref": "sw1",
+   "type": "Switch",
+   "x": 816,
+   "y": 700,
+   "id": "CP1"
+  },
+  {
+   "ref": "sw2",
+   "type": "Switch",
+   "x": 799,
+   "y": 700,
+   "id": "CP2"
+  },
+  {
+   "ref": "sw3",
+   "type": "Switch",
+   "x": 782,
+   "y": 700,
+   "id": "CP3"
+  },
+  {
+   "ref": "sw4",
+   "type": "Switch",
+   "x": 765,
+   "y": 700,
+   "id": "CP4"
+  },
+  {
+   "ref": "sw5",
+   "type": "Switch",
+   "x": 748,
+   "y": 700,
+   "id": "CP5"
+  },
+  {
+   "ref": "sw6",
+   "type": "Switch",
+   "x": 731,
+   "y": 700,
+   "id": "CP6"
+  },
+  {
+   "ref": "sw7",
+   "type": "Switch",
+   "x": 714,
+   "y": 700,
+   "id": "CP7"
+  },
+  {
+   "ref": "ls",
+   "type": "74LS245",
+   "x": 700,
+   "y": 560,
+   "id": "CP8"
+  },
+  {
+   "ref": "ar",
+   "type": "74LS273",
+   "x": 700,
+   "y": 380,
+   "id": "CP9"
+  },
+  {
+   "ref": "ram",
+   "type": "RAM6116",
+   "x": 700,
+   "y": 170,
+   "id": "CP10"
+  },
+  {
+   "ref": "dataLed7",
+   "type": "Led",
+   "x": 776,
+   "y": 80,
+   "id": "CP11"
+  },
+  {
+   "ref": "dataLed6",
+   "type": "Led",
+   "x": 795,
+   "y": 80,
+   "id": "CP12"
+  },
+  {
+   "ref": "dataLed5",
+   "type": "Led",
+   "x": 813,
+   "y": 80,
+   "id": "CP13"
+  },
+  {
+   "ref": "dataLed4",
+   "type": "Led",
+   "x": 832,
+   "y": 80,
+   "id": "CP14"
+  },
+  {
+   "ref": "dataLed3",
+   "type": "Led",
+   "x": 850,
+   "y": 80,
+   "id": "CP15"
+  },
+  {
+   "ref": "dataLed2",
+   "type": "Led",
+   "x": 869,
+   "y": 80,
+   "id": "CP16"
+  },
+  {
+   "ref": "dataLed1",
+   "type": "Led",
+   "x": 887,
+   "y": 80,
+   "id": "CP17"
+  },
+  {
+   "ref": "dataLed0",
+   "type": "Led",
+   "x": 906,
+   "y": 80,
+   "id": "CP18"
+  },
+  {
+   "ref": "addrLed7",
+   "type": "Led",
+   "x": 1000,
+   "y": 150,
+   "id": "CP19"
+  },
+  {
+   "ref": "addrLed6",
+   "type": "Led",
+   "x": 1026,
+   "y": 150,
+   "id": "CP20"
+  },
+  {
+   "ref": "addrLed5",
+   "type": "Led",
+   "x": 1052,
+   "y": 150,
+   "id": "CP21"
+  },
+  {
+   "ref": "addrLed4",
+   "type": "Led",
+   "x": 1078,
+   "y": 150,
+   "id": "CP22"
+  },
+  {
+   "ref": "addrLed3",
+   "type": "Led",
+   "x": 1104,
+   "y": 150,
+   "id": "CP23"
+  },
+  {
+   "ref": "addrLed2",
+   "type": "Led",
+   "x": 1130,
+   "y": 150,
+   "id": "CP24"
+  },
+  {
+   "ref": "addrLed1",
+   "type": "Led",
+   "x": 1156,
+   "y": 150,
+   "id": "CP25"
+  },
+  {
+   "ref": "addrLed0",
+   "type": "Led",
+   "x": 1182,
+   "y": 150,
+   "id": "CP26"
+  },
+  {
+   "ref": "ce",
+   "type": "Switch",
+   "x": 840,
+   "y": 268,
+   "id": "CP27"
+  },
+  {
+   "ref": "we",
+   "type": "Switch",
+   "x": 1074,
+   "y": 300,
+   "id": "CP28"
+  },
+  {
+   "ref": "swbus",
+   "type": "Switch",
+   "x": 600,
+   "y": 560,
+   "id": "CP29"
+  },
+  {
+   "ref": "ldar",
+   "type": "Switch",
+   "x": 1074,
+   "y": 460,
+   "id": "CP30"
+  },
+  {
+   "ref": "mr",
+   "type": "Switch",
+   "x": 590,
+   "y": 470,
+   "id": "CP31"
+  },
+  {
+   "ref": "p1",
+   "type": "SinglePulse",
+   "x": 1096,
+   "y": 300,
+   "id": "CP32"
+  },
+  {
+   "ref": "p2",
+   "type": "SinglePulse",
+   "x": 1096,
+   "y": 460,
+   "id": "CP33"
+  },
+  {
+   "ref": "nand",
+   "type": "NANDgate",
+   "x": 1080,
+   "y": 240,
+   "id": "CP34"
+  },
+  {
+   "ref": "andg",
+   "type": "ANDgate",
+   "x": 1080,
+   "y": 400,
+   "id": "CP35"
+  }
+ ],
+ "wires": [
+  [
+   "sw0.0",
+   "ls.8"
+  ],
+  [
+   "sw1.0",
+   "ls.7"
+  ],
+  [
+   "sw2.0",
+   "ls.6"
+  ],
+  [
+   "sw3.0",
+   "ls.5"
+  ],
+  [
+   "sw4.0",
+   "ls.4"
+  ],
+  [
+   "sw5.0",
+   "ls.3"
+  ],
+  [
+   "sw6.0",
+   "ls.2"
+  ],
+  [
+   "sw7.0",
+   "ls.1"
+  ],
+  [
+   "ls.10",
+   "ar.8"
+  ],
+  [
+   "ls.10",
+   "ram.12"
+  ],
+  [
+   "ls.10",
+   "dataLed0.0"
+  ],
+  [
+   "ram.12",
+   "dataLed0.0"
+  ],
+  [
+   "ar.11",
+   "ram.7"
+  ],
+  [
+   "ar.11",
+   "addrLed0.0"
+  ],
+  [
+   "ls.11",
+   "ar.7"
+  ],
+  [
+   "ls.11",
+   "ram.13"
+  ],
+  [
+   "ls.11",
+   "dataLed1.0"
+  ],
+  [
+   "ram.13",
+   "dataLed1.0"
+  ],
+  [
+   "ar.12",
+   "ram.6"
+  ],
+  [
+   "ar.12",
+   "addrLed1.0"
+  ],
+  [
+   "ls.12",
+   "ar.6"
+  ],
+  [
+   "ls.12",
+   "ram.14"
+  ],
+  [
+   "ls.12",
+   "dataLed2.0"
+  ],
+  [
+   "ram.14",
+   "dataLed2.0"
+  ],
+  [
+   "ar.13",
+   "ram.5"
+  ],
+  [
+   "ar.13",
+   "addrLed2.0"
+  ],
+  [
+   "ls.13",
+   "ar.5"
+  ],
+  [
+   "ls.13",
+   "ram.15"
+  ],
+  [
+   "ls.13",
+   "dataLed3.0"
+  ],
+  [
+   "ram.15",
+   "dataLed3.0"
+  ],
+  [
+   "ar.14",
+   "ram.4"
+  ],
+  [
+   "ar.14",
+   "addrLed3.0"
+  ],
+  [
+   "ls.14",
+   "ar.4"
+  ],
+  [
+   "ls.14",
+   "ram.16"
+  ],
+  [
+   "ls.14",
+   "dataLed4.0"
+  ],
+  [
+   "ram.16",
+   "dataLed4.0"
+  ],
+  [
+   "ar.15",
+   "ram.3"
+  ],
+  [
+   "ar.15",
+   "addrLed4.0"
+  ],
+  [
+   "ls.15",
+   "ar.3"
+  ],
+  [
+   "ls.15",
+   "ram.17"
+  ],
+  [
+   "ls.15",
+   "dataLed5.0"
+  ],
+  [
+   "ram.17",
+   "dataLed5.0"
+  ],
+  [
+   "ar.16",
+   "ram.2"
+  ],
+  [
+   "ar.16",
+   "addrLed5.0"
+  ],
+  [
+   "ls.16",
+   "ar.2"
+  ],
+  [
+   "ls.16",
+   "ram.18"
+  ],
+  [
+   "ls.16",
+   "dataLed6.0"
+  ],
+  [
+   "ram.18",
+   "dataLed6.0"
+  ],
+  [
+   "ar.17",
+   "ram.1"
+  ],
+  [
+   "ar.17",
+   "addrLed6.0"
+  ],
+  [
+   "ls.17",
+   "ar.1"
+  ],
+  [
+   "ls.17",
+   "ram.19"
+  ],
+  [
+   "ls.17",
+   "dataLed7.0"
+  ],
+  [
+   "ram.19",
+   "dataLed7.0"
+  ],
+  [
+   "ar.18",
+   "ram.0"
+  ],
+  [
+   "ar.18",
+   "addrLed7.0"
+  ],
+  [
+   "ce.0",
+   "ram.8"
+  ],
+  [
+   "swbus.0",
+   "ls.18"
+  ],
+  [
+   "we.0",
+   "nand.0"
+  ],
+  [
+   "p1.0",
+   "nand.1"
+  ],
+  [
+   "nand.2",
+   "ram.10"
+  ],
+  [
+   "ldar.0",
+   "andg.0"
+  ],
+  [
+   "p2.0",
+   "andg.1"
+  ],
+  [
+   "andg.2",
+   "ar.10"
+  ],
+  [
+   "mr.0",
+   "ar.0"
+  ]
+ ]
+}

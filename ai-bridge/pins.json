@@ -1,0 +1,3192 @@
+{
+ "Compo74LS139": {
+  "type": "74LS139",
+  "width": 180,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 2,
+  "pinWidth": 22,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "-Ea",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A0a",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A1a",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "-O0b",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "-O1b",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "-O2b",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "-O3b",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "-O3a",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 9,
+    "label": "-O2a",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 10,
+    "label": "-O1a",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "-O0a",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 12,
+    "label": "A1b",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "A0b",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "-Eb",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS163": {
+  "type": "74LS163",
+  "width": 150,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 3,
+  "pinWidth": 18,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "-CR",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "CP",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "D",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "C",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "B",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "A",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "ENP",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "-LD",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "上"
+   },
+   {
+    "no": 9,
+    "label": "ENT",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "上"
+   },
+   {
+    "no": 10,
+    "label": "QA",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "QB",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 12,
+    "label": "QC",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "QD",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "RCO",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS174": {
+  "type": "74LS174",
+  "width": 146,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "-MR",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "D5",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "D4",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "D3",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "D2",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "D1",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "D0",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "CP",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 9,
+    "label": "Q0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 10,
+    "label": "Q1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "Q2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 12,
+    "label": "Q3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "Q4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "Q5",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS175": {
+  "type": "74LS175",
+  "width": 112,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "-MR",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "D3",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "D2",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "D1",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "D0",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "CP",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 7,
+    "label": "Q0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 8,
+    "label": "Q1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 9,
+    "label": "Q2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 10,
+    "label": "Q3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS181": {
+  "type": "74LS181",
+  "width": 214,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "A3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "A0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "B3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "B2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "B1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "B0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "S3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "S2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "S1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 11,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 12,
+    "label": "S0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "F0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "F1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "F2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 16,
+    "label": "F3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 17,
+    "label": "A=B",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 18,
+    "label": "P",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 19,
+    "label": "Cn+4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 20,
+    "label": "G",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 21,
+    "label": "Cn",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 22,
+    "label": "M",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 23,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS245": {
+  "type": "74LS245",
+  "width": 180,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "DIR",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A7",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A6",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "A5",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "A4",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "A3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "A2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "A1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "A0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "B0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "B1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 12,
+    "label": "B2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "B3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "B4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "B5",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 16,
+    "label": "B6",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 17,
+    "label": "B7",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 18,
+    "label": "-E",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 19,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS273": {
+  "type": "74LS273",
+  "width": 180,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "-MR",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "D7",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "D6",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "D5",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "D4",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "D3",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "D2",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "D1",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "D0",
+    "fn": 0,
+    "fnText": "输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "CP",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "Q0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 12,
+    "label": "Q1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "Q2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "Q3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "Q4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 16,
+    "label": "Q5",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 17,
+    "label": "Q6",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 18,
+    "label": "Q7",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 19,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "Compo74LS374": {
+  "type": "74LS374",
+  "width": 180,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "-OE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "D7",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "D6",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "D5",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "D4",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "D3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "D2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "D1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "D0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "CP",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "上"
+   },
+   {
+    "no": 11,
+    "label": "Q0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 12,
+    "label": "Q1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "Q2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "Q3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "Q4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 16,
+    "label": "Q5",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 17,
+    "label": "Q6",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 18,
+    "label": "Q7",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 19,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoANDgate": {
+  "type": "ANDgate",
+  "width": 31,
+  "height": 20,
+  "image": "./img/andgate.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 2,
+  "pinWidth": 9,
+  "pinHeight": 8,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoBUS": {
+  "type": "BUS",
+  "width": 1217,
+  "height": 30,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 17,
+  "pinHeight": 11,
+  "pins": [
+   {
+    "no": 0,
+    "label": "A7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "A4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "A3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "A2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "A1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "A0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "B7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "B6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "B5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 11,
+    "label": "B4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 12,
+    "label": "B3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 13,
+    "label": "B2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 14,
+    "label": "B1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 15,
+    "label": "B0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 16,
+    "label": "C7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 17,
+    "label": "C6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 18,
+    "label": "C5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 19,
+    "label": "C4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 20,
+    "label": "C3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 21,
+    "label": "C2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 22,
+    "label": "C1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 23,
+    "label": "C0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 24,
+    "label": "D7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 25,
+    "label": "D6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 26,
+    "label": "D5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 27,
+    "label": "D4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 28,
+    "label": "D3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 29,
+    "label": "D2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 30,
+    "label": "D1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 31,
+    "label": "D0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 32,
+    "label": "E7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 33,
+    "label": "E6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 34,
+    "label": "E5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 35,
+    "label": "E4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 36,
+    "label": "E3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 37,
+    "label": "E2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 38,
+    "label": "E1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 39,
+    "label": "E0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 40,
+    "label": "F7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 41,
+    "label": "F6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 42,
+    "label": "F5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 43,
+    "label": "F4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 44,
+    "label": "F3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 45,
+    "label": "F2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 46,
+    "label": "F1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 47,
+    "label": "F0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 48,
+    "label": "G7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 49,
+    "label": "G6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 50,
+    "label": "G5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 51,
+    "label": "G4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 52,
+    "label": "G3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 53,
+    "label": "G2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 54,
+    "label": "G1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 55,
+    "label": "G0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 56,
+    "label": "H7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 57,
+    "label": "H6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 58,
+    "label": "H5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 59,
+    "label": "H4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 60,
+    "label": "H3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 61,
+    "label": "H2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 62,
+    "label": "H1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 63,
+    "label": "H0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "下"
+   },
+   {
+    "no": 64,
+    "label": "I0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 65,
+    "label": "I1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 66,
+    "label": "I2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 67,
+    "label": "I3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 68,
+    "label": "I4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 69,
+    "label": "I5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 70,
+    "label": "I6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 71,
+    "label": "I7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 72,
+    "label": "J0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 73,
+    "label": "J1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 74,
+    "label": "J2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 75,
+    "label": "J3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 76,
+    "label": "J4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 77,
+    "label": "J5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 78,
+    "label": "J6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 79,
+    "label": "J7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 80,
+    "label": "K0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 81,
+    "label": "K1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 82,
+    "label": "K2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 83,
+    "label": "K3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 84,
+    "label": "K4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 85,
+    "label": "K5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 86,
+    "label": "K6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 87,
+    "label": "K7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 88,
+    "label": "L0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 89,
+    "label": "L1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 90,
+    "label": "L2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 91,
+    "label": "L3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 92,
+    "label": "L4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 93,
+    "label": "L5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 94,
+    "label": "L6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 95,
+    "label": "L7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 96,
+    "label": "M0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 97,
+    "label": "M1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 98,
+    "label": "M2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 99,
+    "label": "M3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 100,
+    "label": "M4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 101,
+    "label": "M5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 102,
+    "label": "M6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 103,
+    "label": "M7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 104,
+    "label": "N0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 105,
+    "label": "N1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 106,
+    "label": "N2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 107,
+    "label": "N3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 108,
+    "label": "N4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 109,
+    "label": "N5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 110,
+    "label": "N6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 111,
+    "label": "N7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 112,
+    "label": "O0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 113,
+    "label": "O1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 114,
+    "label": "O2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 115,
+    "label": "O3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 116,
+    "label": "O4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 117,
+    "label": "O5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 118,
+    "label": "O6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 119,
+    "label": "O7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 120,
+    "label": "P0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 121,
+    "label": "P1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 122,
+    "label": "P2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 123,
+    "label": "P3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 124,
+    "label": "P4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 125,
+    "label": "P5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 126,
+    "label": "P6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 127,
+    "label": "P7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoContinuousPulse": {
+  "type": "ContinuousPulse",
+  "width": 17,
+  "height": 35,
+  "image": "./img/cpulseoff.gif",
+  "showName": false,
+  "showBorder": true,
+  "paddingLR": 0,
+  "pinWidth": 17,
+  "pinHeight": 10,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoEPROM2716C3": {
+  "type": "EPROM2716C3",
+  "width": 370,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 18,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "A10",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A9",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A8",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "A7",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "A6",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "A5",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "A4",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "A3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "A2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "A1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "A0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 11,
+    "label": "-CE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 12,
+    "label": "-OE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 13,
+    "label": "VPP",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 14,
+    "label": "Q0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 15,
+    "label": "Q1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 16,
+    "label": "Q2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 17,
+    "label": "Q3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 18,
+    "label": "Q4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 19,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 20,
+    "label": "Q5",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 21,
+    "label": "Q6",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 22,
+    "label": "Q7",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 23,
+    "label": "Q8",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 24,
+    "label": "Q9",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 25,
+    "label": "Q10",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 26,
+    "label": "Q11",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 27,
+    "label": "Q12",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 28,
+    "label": "Q13",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 29,
+    "label": "Q14",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 30,
+    "label": "Q15",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 31,
+    "label": "Q16",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 32,
+    "label": "Q17",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 33,
+    "label": "Q18",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 34,
+    "label": "Q19",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 35,
+    "label": "Q20",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 36,
+    "label": "Q21",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 37,
+    "label": "Q22",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 38,
+    "label": "Q23",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 39,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoEPROM2716C4": {
+  "type": "EPROM2716C4",
+  "width": 442,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 5,
+  "pinWidth": 18,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "A10",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A9",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A8",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "A7",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "A6",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "A5",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "A4",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "A3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "A2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "A1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "A0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 11,
+    "label": "-CE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 12,
+    "label": "-OE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 13,
+    "label": "VPP",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 14,
+    "label": "Q0",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 15,
+    "label": "Q1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 16,
+    "label": "Q2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 17,
+    "label": "Q3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 18,
+    "label": "Q4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 19,
+    "label": "Q5",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 20,
+    "label": "Q6",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 21,
+    "label": "Q7",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 22,
+    "label": "Q8",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "下"
+   },
+   {
+    "no": 23,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 24,
+    "label": "Q9",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 25,
+    "label": "Q10",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 26,
+    "label": "Q11",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 27,
+    "label": "Q12",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 28,
+    "label": "Q13",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 29,
+    "label": "Q14",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 30,
+    "label": "Q15",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 31,
+    "label": "Q16",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 32,
+    "label": "Q17",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 33,
+    "label": "Q18",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 34,
+    "label": "Q19",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 35,
+    "label": "Q20",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 36,
+    "label": "Q21",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 37,
+    "label": "Q22",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 38,
+    "label": "Q23",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 39,
+    "label": "Q24",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 40,
+    "label": "Q25",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 41,
+    "label": "Q26",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 42,
+    "label": "Q27",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 43,
+    "label": "Q28",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 44,
+    "label": "Q29",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 45,
+    "label": "Q30",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 46,
+    "label": "Q31",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 47,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoLed": {
+  "type": "Led",
+  "width": 17,
+  "height": 26,
+  "image": "./img/ledoff.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 0,
+  "pinWidth": 17,
+  "pinHeight": 10,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   }
+  ]
+ },
+ "CompoNANDgate": {
+  "type": "NANDgate",
+  "width": 31,
+  "height": 26,
+  "image": "./img/nandgate.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 2,
+  "pinWidth": 9,
+  "pinHeight": 8,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoNOTgate": {
+  "type": "NOTgate",
+  "width": 31,
+  "height": 26,
+  "image": "./img/notgate.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 11,
+  "pinWidth": 9,
+  "pinHeight": 8,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoORgate": {
+  "type": "ORgate",
+  "width": 31,
+  "height": 20,
+  "image": "./img/orgate.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 2,
+  "pinWidth": 9,
+  "pinHeight": 8,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoRAM6116": {
+  "type": "RAM6116",
+  "width": 226,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 2,
+  "pinWidth": 18.5,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "A7",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "A6",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "A5",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "A4",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "A3",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 5,
+    "label": "A2",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 6,
+    "label": "A1",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 7,
+    "label": "A0",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 8,
+    "label": "-CE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 9,
+    "label": "-OE",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "下"
+   },
+   {
+    "no": 10,
+    "label": "-WE",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 11,
+    "label": "GND",
+    "fn": 2,
+    "fnText": "地",
+    "side": "下"
+   },
+   {
+    "no": 12,
+    "label": "IO0",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 13,
+    "label": "IO1",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 14,
+    "label": "IO2",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 15,
+    "label": "IO3",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 16,
+    "label": "IO4",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 17,
+    "label": "IO5",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 18,
+    "label": "IO6",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 19,
+    "label": "IO7",
+    "fn": 11,
+    "fnText": "输入/输出",
+    "side": "上"
+   },
+   {
+    "no": 20,
+    "label": "A10",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "上"
+   },
+   {
+    "no": 21,
+    "label": "A9",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "上"
+   },
+   {
+    "no": 22,
+    "label": "A8",
+    "fn": 4,
+    "fnText": "其它",
+    "side": "上"
+   },
+   {
+    "no": 23,
+    "label": "VCC",
+    "fn": 3,
+    "fnText": "电源",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoSequeTimer": {
+  "type": "SequeTimer",
+  "width": 98,
+  "height": 55,
+  "image": "",
+  "showName": true,
+  "showBorder": true,
+  "paddingLR": 3,
+  "pinWidth": 23,
+  "pinHeight": 19,
+  "pins": [
+   {
+    "no": 0,
+    "label": "Ts",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "Stop",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "Step",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 3,
+    "label": "Start",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 4,
+    "label": "T4",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 5,
+    "label": "T3",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 6,
+    "label": "T2",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   },
+   {
+    "no": 7,
+    "label": "T1",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoSinglePulse": {
+  "type": "SinglePulse",
+  "width": 17,
+  "height": 35,
+  "image": "./img/spulseup.gif",
+  "showName": false,
+  "showBorder": true,
+  "paddingLR": 0,
+  "pinWidth": 17,
+  "pinHeight": 10,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoSwitch": {
+  "type": "Switch",
+  "width": 17,
+  "height": 35,
+  "image": "./img/switchL.gif",
+  "showName": false,
+  "showBorder": true,
+  "paddingLR": 0,
+  "pinWidth": 17,
+  "pinHeight": 10,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoTriplegate": {
+  "type": "Triplegate",
+  "width": 31,
+  "height": 20,
+  "image": "./img/triplegate.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 2,
+  "pinWidth": 9,
+  "pinHeight": 8,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ },
+ "CompoXORgate": {
+  "type": "XORgate",
+  "width": 31,
+  "height": 20,
+  "image": "./img/xorgate.gif",
+  "showName": false,
+  "showBorder": false,
+  "paddingLR": 2,
+  "pinWidth": 9,
+  "pinHeight": 8,
+  "pins": [
+   {
+    "no": 0,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 1,
+    "label": "",
+    "fn": 10,
+    "fnText": "必要输入",
+    "side": "下"
+   },
+   {
+    "no": 2,
+    "label": "",
+    "fn": 1,
+    "fnText": "输出",
+    "side": "上"
+   }
+  ]
+ }
+}

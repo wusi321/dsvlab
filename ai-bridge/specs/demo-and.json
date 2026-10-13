@@ -1,0 +1,15 @@
+{
+  "title": "demo-and",
+  "components": [
+    { "ref": "sw1", "type": "Switch", "x": 210, "y": 520 },
+    { "ref": "sw2", "type": "Switch", "x": 260, "y": 520 },
+    { "ref": "and1", "type": "ANDgate", "x": 420, "y": 320 },
+    { "ref": "led1", "type": "Led", "x": 660, "y": 300 },
+    { "ref": "pulse1", "type": "SinglePulse", "x": 210, "y": 640 }
+  ],
+  "wires": [
+    ["sw1.0", "and1.0"],
+    ["sw2.0", "and1.1"],
+    ["and1.2", "led1.0"]
+  ]
+}

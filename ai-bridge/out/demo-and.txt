@@ -1,0 +1,1 @@
+Switch,210px,520px,CP0$Switch,260px,520px,CP1$ANDgate,420px,320px,CP2$Led,660px,300px,CP3$SinglePulse,210px,640px,CP4$&CP0Pin0ToCP2Pin0,CP1Pin0ToCP2Pin1,CP2Pin2ToCP3Pin0,@5
