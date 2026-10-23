@@ -230,16 +230,21 @@ Switch,210px,520px,CP0$Switch,260px,520px,CP1$ANDgate,420px,320px,CP2$Led,660px,
 | [ai-bridge/verify.js](ai-bridge/verify.js) | **无头 Chrome（CDP）验证器**：加载 `index.html`、注入电路、检查元件/连线/路径、回存比对、截图；`--sim` 跑逻辑、`--script` 跑任意实验脚本 |
 | [ai-bridge/gen-memory-spec.js](ai-bridge/gen-memory-spec.js) | 按教材图 4-1 计算「存储器实验」36 元件 / 65 连线的坐标与连线 |
 | [ai-bridge/sim/memory-lab.js](ai-bridge/sim/memory-lab.js) | 在页面内按教材 4.5 步骤自动完成写入与读回 |
-| [ai-bridge/annotate.py](ai-bridge/annotate.py) | 在渲染截图上标注元件功能（需 Pillow） |
+| [ai-bridge/gen-alu-spec.js](ai-bridge/gen-alu-spec.js) | 按教材图 3-1/3-2 计算「运算器实验」34 元件 / 75 连线的坐标与连线 |
+| [ai-bridge/check-alu-model.js](ai-bridge/check-alu-model.js) | 独立校验 74LS181 模型与教材表 3-1（48 种组合） |
+| [ai-bridge/sim/alu-lab.js](ai-bridge/sim/alu-lab.js) | 在页面内按教材 3.5 步骤置数 DR1/DR2 并逐项验证表 3-1 |
+| [ai-bridge/annotate.py](ai-bridge/annotate.py)、[annotate-alu.py](ai-bridge/annotate-alu.py) | 在渲染截图上标注元件功能（需 Pillow） |
 | [ai-bridge/实验四-存储器实验-操作指导.md](ai-bridge/实验四-存储器实验-操作指导.md) | 存储器实验的逐步操作指导 + 元件位置对照 + 常见坑 |
+| [ai-bridge/运算器实验-操作指导.md](ai-bridge/运算器实验-操作指导.md) | 运算器实验的逐步操作指导 + 实测表 3-1 + 思考与分析解答 |
 
 ### 已经生成好的电路（`ai-bridge/out/`）
 
 | 文件 | 内容 | 验证结果 |
 |---|---|---|
 | [memory-lab.txt](ai-bridge/out/memory-lab.txt) | **教材第 4 章 存储器实验**：RAM6116 + 74LS273(AR) + 74LS245(三态门) + 与非门/与门 + 13 开关 + 16 灯 + 2 单脉冲，共 36 元件 / 65 连线 | 元件 36/36、路径异常 0、按教材步骤写入 01H~05H 后读回 **5/5 正确** |
-| [memory-lab-annotated.png](ai-bridge/out/memory-lab-annotated.png) | 上图的标注版（每个元件的功能与位置） | — |
-| [memory-lab.console.js](ai-bridge/out/memory-lab.console.js) | 控制台一键注入代码（不想存文件时用） | — |
+| [alu-lab.txt](ai-bridge/out/alu-lab.txt) | **教材第 3 章 运算器实验**：74LS181×2 + 74LS273×2 + 74LS245×2 + 9 灯 + 17 开关 + 2 单脉冲，共 34 元件 / 75 连线 | 元件 34/34、路径异常 0、DR1=65H/DR2=A7H 置数正确、**表 3-1 验证 48/48 一致** |
+| [memory-lab-annotated.png](ai-bridge/out/memory-lab-annotated.png)、[alu-lab-annotated.png](ai-bridge/out/alu-lab-annotated.png) | 上两图的标注版（每个元件的功能与位置） | — |
+| [memory-lab.console.js](ai-bridge/out/memory-lab.console.js)、[alu-lab.console.js](ai-bridge/out/alu-lab.console.js) | 控制台一键注入代码（不想存文件时用） | — |
 | [circuit4-regen.txt](ai-bridge/out/circuit4-regen.txt) | 教材自带实验四电路（53 元件 / 124 连线）的再生成版 | 连线 124 条全部有效，路径异常 0 |
 | [demo-and.txt](ai-bridge/out/demo-and.txt) | 最小示例：2 开关 + 与门 + 灯 | 与门真值实测正确 |
 
@@ -247,9 +252,9 @@ Switch,210px,520px,CP0$Switch,260px,520px,CP1$ANDgate,420px,320px,CP2$Led,660px,
 
 ```powershell
 cd ai-bridge
-node circuit.js build specs\memory.json out\memory-lab.txt   # ① 生成存档 → 界面「文件→打开」
-node circuit.js console specs\memory.json                    # ② 生成控制台注入代码 → F12 粘贴
-node verify.js out\memory-lab.txt --refs out\memory.refs.json --script sim\memory-lab.js --shot out\memory-lab.png  # ③ 无头验证
+node circuit.js build specs\alu.json out\alu-lab.txt        # ① 生成存档 → 界面「文件→打开」
+node circuit.js console specs\alu.json                      # ② 生成控制台注入代码 → F12 粘贴
+node verify.js out\alu-lab.txt --refs out\alu.refs.json --script sim\alu-lab.js --shot out\alu-lab.png  # ③ 无头验证
 ```
 
 ---
@@ -295,5 +300,6 @@ node verify.js out\memory-lab.txt --refs out\memory.refs.json --script sim\memor
 | [readme.md](readme.md) | 本文件：目录结构与功能总览 |
 | [ai-bridge/README.md](ai-bridge/README.md) | 自动搭电路工具链的用法、接口清单、标准格式、踩过的坑 |
 | [ai-bridge/实验四-存储器实验-操作指导.md](ai-bridge/实验四-存储器实验-操作指导.md) | 存储器实验逐步操作指导、元件位置对照、常见坑 |
+| [ai-bridge/运算器实验-操作指导.md](ai-bridge/运算器实验-操作指导.md) | 运算器实验逐步操作指导、实测表 3-1、思考与分析解答 |
 | [experimentguidance.html](experimentguidance.html) / [chipdatasheet.html](chipdatasheet.html) | 实验指导与器件资料入口 |
 | [license.txt](license.txt) | GNU GPL 许可证 |

@@ -1,4 +1,4 @@
-﻿# ai-bridge —— DS-VLAB 虚拟实验室接口驱动工具链
+# ai-bridge —— DS-VLAB 虚拟实验室接口驱动工具链
 
 本目录用程序直接操作 DS-VLAB v1.2 的真实接口，实现**元件自动放置 + 自动连线 + 结果验证**。
 不需要人工拖拽，也不需要浏览器插件。
@@ -16,8 +16,12 @@
 注意：`recovercircuit` 内部只做 4 件事——`addComponent` 放置元件、`lineCreate` 建线、
 `lineAdjust` 定位、`addLineToComponent` 记账。所以“注入存档文本”与“逐条调用接口”完全等价。
 
-**已交付的成品电路：[实验四 存储器实验（教材第4章）](实验四-存储器实验-操作指导.md)**
-—— 36 个元件 / 65 条连线，按教材图 4-1 生成，并在无头浏览器里按教材 4.5 步骤跑通，写入 01H~05H 后读回 **5/5 正确**。
+**已交付的成品电路：**
+
+| 实验 | 规模 | 验证 |
+|---|---|---|
+| [实验四 存储器实验（教材第4章）](实验四-存储器实验-操作指导.md) | 36 元件 / 65 连线，按教材图 4-1 生成 | 按教材 4.5 步骤写入 01H~05H 后读回 **5/5 正确** |
+| [运算器实验（教材第3章）](运算器实验-操作指导.md) | 34 元件 / 75 连线，按教材图 3-1/3-2 生成 | 置数 DR1=65H/DR2=A7H，**表 3-1 验证 48/48 一致** |
 
 ### 验证记录（无头 Chrome + CDP 真实页面，脚本见 `verify.js`）
 
@@ -26,9 +30,11 @@
 | `out/demo-and.txt`（开关+与门+LED） | 5 元件 / 3 线 | 元件 5/5、引脚 7、连线 3、**SVG 路径异常 0 条** ✅ |
 | `out/circuit4-regen.txt`（实验四真实电路再生成） | 53 元件 / 359 引脚 / 124 线 | 元件 53/53、连线 124、路径异常 0 ✅ |
 | **`out/memory-lab.txt`（教材第4章 存储器实验）** | **36 元件 / 101 引脚 / 65 线** | **元件 36/36、连线 65、路径异常 0 ✅** |
-| 回存比对 `circuitdata(mycircuit)` vs 输入文件 | 三个用例 | 逐字节一致或**语义完全一致** ✅（证明存档格式与实验室自身完全兼容） |
+| **`out/alu-lab.txt`（教材第3章 运算器实验）** | **34 元件 / 156 引脚 / 75 线** | **元件 34/34、连线 75、路径异常 0 ✅** |
+| 回存比对 `circuitdata(mycircuit)` vs 输入文件 | 四个用例 | 逐字节一致或**语义完全一致** ✅（证明存档格式与实验室自身完全兼容） |
 | 功能仿真 `cDispatch.powerOn()` + 翻转开关 | demo-and | 与门真值：两开关全 1 时 LED 才 `ledon.gif` ✅ |
 | **按教材 4.5 步骤写/读存储器** | memory-lab | 写入 11H~15H 到 01H~05H 再读回：**5/5 正确** ✅ |
+| **按教材 3.5 步骤做运算器实验** | alu-lab | DR1=65H/DR2=A7H 置数正确，16 种 S×3 模式：**48/48 与教材表 3-1 一致** ✅ |
 
 `out/circuit4-regen.png`、`out/demo-and.png`、`out/memory-lab.png` 是无头浏览器渲染出的实图。
 
@@ -50,6 +56,7 @@ node circuit.js console specs\demo-and.json
 ```powershell
 node verify.js out\demo-and.txt --sim --shot out\demo-and.png
 node verify.js out\memory-lab.txt --refs out\memory.refs.json --script sim\memory-lab.js --shot out\memory-lab.png
+node verify.js out\alu-lab.txt --refs out\alu.refs.json --script sim\alu-lab.js --shot out\alu-lab.png
 ```
 输出元件数/DOM 数/连线数/异常路径数，回存比对，截图；`--sim` 会开电源翻转全部开关，
 `--script` 可以在页面里跑一段任意实验脚本并把返回的 JSON 打出来（`--refs` 注入 ref→器件id 别名表）。
@@ -63,8 +70,22 @@ node circuit.js pins 74LS181            # 查某芯片引脚表（脚号/名称/
 node circuit.js parse 某个存档.txt       # 校验已有存档（引脚越界、器件不存在等）
 node circuit.js roundtrip 原图.txt 新图.txt  # 解析原图再重新生成（大规模回归用）
 node gen-memory-spec.js                 # 重新计算《存储器实验》电路的坐标与连线
+node gen-alu-spec.js                    # 重新计算《运算器实验》电路的坐标与连线
+node check-alu-model.js 5 7             # 独立校验 74LS181 模型与教材表 3-1
+node verify.js out\alu-lab.txt --refs out\alu.refs.json --script sim\alu-lab.js --shot out\alu-lab.png
 python annotate.py                      # 在渲染截图上标注元件功能（需 Pillow）
+python annotate-alu.py                  # 运算器电路的标注图
 ```
+
+`docx_tools/` 是**实验报告文档处理工具**（配合本实验的纸质/电子报告）：
+
+| 脚本 | 作用 |
+|---|---|
+| `docx_tools/walk_docx.py` | 递归打印 docx 结构，含表格单元格内部的段落与图片位置（排查"文字该填哪儿"） |
+| `docx_tools/fill_docs.py` | 按教材第 4 章内容补全《实验预习报告》和《实验报告》，只写文字、不动图片 |
+| `docx_tools/convert_doc.ps1` | 用本机 Word COM 转换 .doc / .docx / PDF（原文件不动，无需 pywin32） |
+| `docx_tools/read_leds.py`、`strips.py` | 从界面截图中识别指示灯亮灭、按行裁切拼接做对照 |
+| `docx_tools/contact_sheet.py`、`page_sheet.py` | 把文档内嵌图片、PDF 页面拼成总览图便于核验 |
 
 ## 四、规格文件（spec JSON）
 
